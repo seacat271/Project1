@@ -1,6 +1,6 @@
 export const Statistics =({title, stats}) => {
     const  {} = stats;
-    return (<section class="statistics">
+    return (<section >
    <h2>{title}</h2>
     <ul>
       <li>

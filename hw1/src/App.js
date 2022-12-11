@@ -1,12 +1,9 @@
 
-import user from './data/user.json';
-import data from './data/data.json'
-import friends from './data/friends.json'
-import transactions from './data/transactions.json'
-import { Statistics } from './components/Statistics';
-import { Profile } from "./components/Profile";
-import {FriendList} from './components/FriendList'
-import {TransactionsHistory} from './components/TransactionsHistory'
+import {user, data, transactions,friends} from './data';
+import { Statistics } from './components/Statistic/Statistics';
+import { Profile } from "./components/Profile/Profile";
+import {FriendList} from './components/Friends/FriendList'
+import {TransactionsHistory} from './components/Transaction/TransactionsHistory'
 function App() {
   return (
     <div>
